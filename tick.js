@@ -9,3 +9,6 @@ function tick(year,month = 1,day = 1,hour = 0,minute = 0,second = 0) {
   const str = `还剩${rday}天${rhour}小时${rmin}分钟${rsecs}秒`;
   console.log(str);
 }
+setInterval(() => {
+  tick(2017,5,4);
+}, 1000);
