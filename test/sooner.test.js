@@ -1,5 +1,5 @@
-const sooner = require('../sooner.js');
-const expect = require('chai').expect;
+import sooner from '../sooner.js';
+import { expect } from 'chai';
 
 describe('倒计时函数测试', function() {
   it('输出格式验证', function() {
