@@ -4,7 +4,7 @@
   "description": "A simple JavaScript API for computing time from Now to A Given Time.",
   "main": "sooner.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/ava"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/shery15/sooner#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "ava": "^0.19.1"
   }
 }
