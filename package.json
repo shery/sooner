@@ -1,6 +1,6 @@
 {
   "name": "sooner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple JavaScript API for computing time from Now to A Given Time.",
   "main": "sooner.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shery15/tick.git"
+    "url": "git+https://github.com/shery15/sooner.git"
   },
   "keywords": [
     "count",
@@ -18,9 +18,9 @@
   "author": "shery",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shery15/tick/issues"
+    "url": "https://github.com/shery15/sooner/issues"
   },
-  "homepage": "https://github.com/shery15/tick#readme",
+  "homepage": "https://github.com/shery15/sooner#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
