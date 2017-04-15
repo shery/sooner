@@ -1,4 +1,4 @@
-function tick(year, month = 1, day = 1, hour = 0, minute = 0, second = 0) {
+function sooner(year, month = 1, day = 1, hour = 0, minute = 0, second = 0) {
   const end = new Date(year, month - 1, day, hour, minute, second);
   const now = new Date();
   const duration = end.getTime() - now.getTime();
@@ -10,4 +10,4 @@ function tick(year, month = 1, day = 1, hour = 0, minute = 0, second = 0) {
 }
 
 if (typeof module !== "undefined")
-module.exports = tick;
+module.exports = sooner;
