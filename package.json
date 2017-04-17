@@ -6,6 +6,30 @@
   "scripts": {
     "test": "./node_modules/.bin/ava"
   },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "sooner.js",
+      "**/*.{js,jsx}",
+      "!dist/**/*"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "tap": true,
+    "powerAssert": false,
+    "require": [
+      "babel-register"
+    ],
+    "babel": {
+      "presets": [
+        "@ava/stage-4",
+        "@ava/transform-test-files"
+      ]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shery15/sooner.git"
@@ -23,5 +47,9 @@
   "homepage": "https://github.com/shery15/sooner#readme",
   "devDependencies": {
     "ava": "^0.19.1"
+  },
+  "dependencies": {
+    "@ava/babel-preset-stage-4": "^1.0.0",
+    "@ava/babel-preset-transform-test-files": "^3.0.0"
   }
 }
