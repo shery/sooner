@@ -1,6 +1,6 @@
 {
   "name": "sooner",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple JavaScript API for computing time from Now to A Given Time.",
   "main": "sooner.js",
   "scripts": {
