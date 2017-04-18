@@ -9,4 +9,4 @@ function sooner(year, month = 1, day = 1, hour = 0, minute = 0, second = 0) {
   return { rday, rhour, rmin, rsecs }
 }
 
-export default sooner;
+module.exports = sooner;

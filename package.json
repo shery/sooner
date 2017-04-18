@@ -4,7 +4,8 @@
   "description": "A simple JavaScript API for computing time from Now to A Given Time.",
   "main": "sooner.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava"
+    "test": "./node_modules/.bin/ava",
+    "test:watch": "ava --watch"
   },
   "ava": {
     "files": [
@@ -46,7 +47,8 @@
   },
   "homepage": "https://github.com/shery15/sooner#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "babel-register": "^6.24.1"
   },
   "dependencies": {
     "@ava/babel-preset-stage-4": "^1.0.0",
